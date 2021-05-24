@@ -1,0 +1,12 @@
+{
+  "name": "percy-demo-native-app",
+  "displayName": "percy-demo-native-app",
+  "expo": {
+    "name": "percy-demo-native-app",
+    "slug": "percy-demo-native-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
