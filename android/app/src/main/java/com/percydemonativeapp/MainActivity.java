@@ -1,6 +1,7 @@
 package com.percydemonativeapp;
 
 import android.os.Bundle;
+import android.webkit.WebView;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -17,6 +18,7 @@ public class MainActivity extends ReactActivity {
     // SplashScreen.show(...) has to be called after super.onCreate(...)
     // Below line is handled by '@expo/configure-splash-screen' command and it's discouraged to modify it manually
     SplashScreen.show(this, SplashScreenImageResizeMode.CONTAIN, ReactRootView.class, false);
+    WebView.setWebContentsDebuggingEnabled(true);
   }
 
 
